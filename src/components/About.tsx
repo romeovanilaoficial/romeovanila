@@ -31,7 +31,7 @@ const About = () => {
           <div className="grid md:grid-cols-4 gap-6">
             {[
               { icon: Mic2, title: "Voz Marcante", desc: "Timbre único e potente" },
-              { icon: Music, title: "Sertanejo Raiz", desc: "Clássicos e sucessos" },
+              { icon: Music, title: "Sertanejo", desc: "Do universitário ao raiz" },
               { icon: Heart, title: "Carisma", desc: "Conexão com o público" },
               { icon: Sparkles, title: "Performance", desc: "Show inesquecível" },
             ].map((item, index) => (
