@@ -21,7 +21,7 @@ const Contact = () => {
       `Olá Romeo! Gostaria de solicitar um orçamento.\n\n*Nome:* ${formData.name}\n*Email:* ${formData.email}\n*Telefone:* ${formData.phone}\n*Tipo de Evento:* ${formData.eventType}\n*Data:* ${formData.eventDate || "A definir"}\n*Mensagem:* ${formData.message || "Aguardo retorno!"}`
     );
     
-    window.open(`https://wa.me/5511999999999?text=${whatsappMessage}`, "_blank");
+    window.open(`https://wa.me/5511952473711?text=${whatsappMessage}`, "_blank");
   };
 
   return (
@@ -143,7 +143,7 @@ const Contact = () => {
 
               <div className="space-y-4">
                 <a
-                  href="https://wa.me/5511999999999"
+                  href="https://wa.me/5511952473711"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 rounded-lg bg-background/50 hover:bg-primary/10 transition-colors group"
@@ -153,12 +153,12 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-muted-foreground text-sm">WhatsApp</p>
-                    <p className="text-foreground font-semibold">(11) 99999-9999</p>
+                    <p className="text-foreground font-semibold">(11) 95247-3711</p>
                   </div>
                 </a>
 
                 <a
-                  href="mailto:contato@romeovanila.com"
+                  href="mailto:romeovanila@proton.me"
                   className="flex items-center gap-4 p-4 rounded-lg bg-background/50 hover:bg-primary/10 transition-colors group"
                 >
                   <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center group-hover:bg-primary/30 transition-colors">
@@ -166,7 +166,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-muted-foreground text-sm">E-mail</p>
-                    <p className="text-foreground font-semibold">contato@romeovanila.com</p>
+                    <p className="text-foreground font-semibold">romeovanila@proton.me</p>
                   </div>
                 </a>
 
