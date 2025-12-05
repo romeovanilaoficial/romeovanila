@@ -2,8 +2,7 @@ import { useState } from "react";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
-import { Calendar, Mail, MapPin, Phone, Send } from "lucide-react";
-import { toast } from "@/hooks/use-toast";
+import { Calendar, Mail, MapPin, Phone, MessageCircle } from "lucide-react";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -19,15 +18,10 @@ const Contact = () => {
     e.preventDefault();
     
     const whatsappMessage = encodeURIComponent(
-      `Olá! Gostaria de solicitar um orçamento.\n\nNome: ${formData.name}\nEmail: ${formData.email}\nTelefone: ${formData.phone}\nTipo de Evento: ${formData.eventType}\nData: ${formData.eventDate}\nMensagem: ${formData.message}`
+      `Olá Romeo! Gostaria de solicitar um orçamento.\n\n*Nome:* ${formData.name}\n*Email:* ${formData.email}\n*Telefone:* ${formData.phone}\n*Tipo de Evento:* ${formData.eventType}\n*Data:* ${formData.eventDate || "A definir"}\n*Mensagem:* ${formData.message || "Aguardo retorno!"}`
     );
     
     window.open(`https://wa.me/5511999999999?text=${whatsappMessage}`, "_blank");
-    
-    toast({
-      title: "Redirecionando para WhatsApp",
-      description: "Você será redirecionado para continuar a conversa.",
-    });
   };
 
   return (
@@ -134,9 +128,9 @@ const Contact = () => {
               />
             </div>
 
-            <Button type="submit" variant="hero" size="xl" className="w-full">
-              <Send className="w-5 h-5 mr-2" />
-              Enviar Solicitação
+            <Button type="submit" variant="whatsapp" size="xl" className="w-full">
+              <MessageCircle className="w-5 h-5 mr-2" />
+              Enviar via WhatsApp
             </Button>
           </form>
 
