@@ -36,7 +36,7 @@ const Header = () => {
             <img 
               src={logoImage} 
               alt="Romeo Vanila" 
-              className="h-12 w-auto mix-blend-screen"
+              className="h-12 w-auto"
             />
           </a>
 
