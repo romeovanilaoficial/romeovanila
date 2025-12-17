@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
+import logoImage from "@/assets/logo-romeo-vanila.png";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,8 +32,12 @@ const Header = () => {
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          <a href="#" className="font-display text-2xl font-bold text-primary">
-            ROMEO VANILA
+          <a href="#" className="block">
+            <img 
+              src={logoImage} 
+              alt="Romeo Vanila" 
+              className="h-12 w-auto"
+            />
           </a>
 
           {/* Desktop Nav */}
