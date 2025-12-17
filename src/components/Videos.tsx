@@ -18,7 +18,7 @@ const Videos = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-12">
+        <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto mb-12">
           <div className="relative rounded-2xl overflow-hidden gold-glow">
             <div className="aspect-video">
               <iframe
@@ -35,6 +35,17 @@ const Videos = () => {
               <iframe
                 src="https://www.youtube.com/embed/vxv3vrPMIiw"
                 title="Romeo Vanila - Show ao Vivo 2"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                className="w-full h-full"
+              />
+            </div>
+          </div>
+          <div className="relative rounded-2xl overflow-hidden gold-glow">
+            <div className="aspect-video">
+              <iframe
+                src="https://www.youtube.com/embed/sRwexysEwIw"
+                title="Romeo Vanila - Show ao Vivo 3"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
                 className="w-full h-full"
