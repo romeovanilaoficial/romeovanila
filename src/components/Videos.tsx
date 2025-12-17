@@ -11,7 +11,7 @@ const Videos = () => {
             Em Ação
           </p>
           <h2 className="section-title mb-4">
-            <span className="text-gradient">Vídeos</span> ao Vivo
+            <span className="text-gradient">Vídeos</span> Autorais
           </h2>
           <p className="section-subtitle">
             Confira a energia e emoção dos shows de Romeo Vanila
