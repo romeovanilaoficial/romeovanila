@@ -22,7 +22,7 @@ const Videos = () => {
           <div className="relative rounded-2xl overflow-hidden gold-glow">
             <div className="aspect-video">
               <iframe
-                src="https://www.youtube.com/embed/6hKezQqU92Q"
+                src="https://www.youtube.com/embed/F9HArasIp5A"
                 title="Romeo Vanila - Show ao Vivo"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
