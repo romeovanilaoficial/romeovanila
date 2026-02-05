@@ -14,13 +14,13 @@ const Footer = () => {
           </p>
 
           <div className="flex items-center gap-6">
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+            <a href="https://www.instagram.com/romeovanila" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors text-sm">
               Instagram
             </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+            <a href="https://youtube.com/@romeovanila?si=HvuKOIiHpMJjUwR4" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors text-sm">
               YouTube
             </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+            <a href="https://www.tiktok.com/@romeovanila?_r=1&_t=ZS-93fgZRMbgSD" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors text-sm">
               TikTok
             </a>
           </div>
