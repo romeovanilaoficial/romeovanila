@@ -195,7 +195,9 @@ const Contact = () => {
             {/* Social Links */}
             <div className="flex gap-4 justify-center">
               <a
-                href="#"
+                href="https://www.instagram.com/romeovanila"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-12 h-12 rounded-full bg-card border border-border/30 flex items-center justify-center hover:border-primary hover:text-primary transition-colors"
                 aria-label="Instagram"
               >
@@ -204,7 +206,9 @@ const Contact = () => {
                 </svg>
               </a>
               <a
-                href="#"
+                href="https://youtube.com/@romeovanila?si=HvuKOIiHpMJjUwR4"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-12 h-12 rounded-full bg-card border border-border/30 flex items-center justify-center hover:border-primary hover:text-primary transition-colors"
                 aria-label="YouTube"
               >
@@ -213,7 +217,9 @@ const Contact = () => {
                 </svg>
               </a>
               <a
-                href="#"
+                href="https://www.tiktok.com/@romeovanila?_r=1&_t=ZS-93fgZRMbgSD"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-12 h-12 rounded-full bg-card border border-border/30 flex items-center justify-center hover:border-primary hover:text-primary transition-colors"
                 aria-label="TikTok"
               >
